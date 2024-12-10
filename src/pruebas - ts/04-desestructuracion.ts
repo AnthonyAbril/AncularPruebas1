@@ -38,3 +38,8 @@ const {
 } = reproductorAudio;
 console.log('Año: ',anyo);
 
+const asignaturas:string[] = ['DWEC','DIW','DWES'];
+console.log('La tercera asignatura es: ',asignaturas[2]);
+
+//desestructuracion arrays
+const [,, a3]:string[] = ['DWEC','DIW','DWES'];
