@@ -45,3 +45,4 @@ console.log('La tercera asignatura es: ',asignaturas[2]);
 const [,, a3]:string[] = ['DWEC','DIW','DWES'];
 
 const asignatura = asignaturas[3] || 'NO EXISTE';
+const [, , , a4 = 'No Existe']:string[] = ['DWEC','DIW','DWES'];
